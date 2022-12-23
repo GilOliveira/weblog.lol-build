@@ -1,4 +1,4 @@
-# weblog.lol sourcehut integration
+# weblog.lol sourcehut builds integration
 
 by [Gil](https://gil.omg.lol)
 
