@@ -18,6 +18,7 @@ by [Gil](https://gil.omg.lol)
 ## License
 
 The code in this repository is made available under an MIT No Attribution license. You can read it in [`LICENSE`](LICENSE).
+
 TL;DR: Do whatever you want with it, no attribution required (although is always apprecciated :D). You're on your own though, no warranty/support here.
 
 
