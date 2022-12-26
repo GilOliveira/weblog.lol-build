@@ -8,5 +8,6 @@ tasks:
   - deploy: |
       cd $REPO_NAME
       wget -O weblog-import.php https://api.omg.lol/address/$ADDRESS/weblog/github-action
+      set +x
       php -f weblog-import.php $ADDRESS $WEBLOG_API_KEY
 
