@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# SPDX-License-Identifier: MIT-0
+
 set +x
 export ADDRESS=foobar
 export WEBLOG_API_KEY=insert-api-token-here

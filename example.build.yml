@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT-0
+
 image: ubuntu/lts
 secrets:
   - YOUR_SOURCEHUT_SECRET_ID
