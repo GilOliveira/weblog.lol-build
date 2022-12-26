@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# SPDX-License-Identifier: MIT-0
+# SPDX-License-Identifier: 0BSD
 # ~gpo/weblog.lol-build v1.0
 
 set +x
