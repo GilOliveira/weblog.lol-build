@@ -4,6 +4,7 @@ secrets:
 packages:
   - curl
   - php
+  - php-curl
 tasks:
   - deploy: |
       cd $REPO_NAME
