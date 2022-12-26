@@ -12,7 +12,7 @@ by [Gil](https://gil.omg.lol)
 4. In `secretvars.sh` edit line 5 and replace `insert-api-token-here` with the API key you retrieved from [your account page](https://home.omg.lol/account#api-key)
 5. In `secretvars.sh` edit line 6 and replace `myweblog` with your repo name (the part after the `https://git.sr.ht/~foobar/`)
 6. Navigate to the ["secrets" section of sourcehut builds](https://builds.sr.ht/secrets)
-7. Select "File" under "Secret Type", type `~/.secretvars`, type `777`, and upload the edited `secretvar.sh` file. Give it a name, for your reference, and click "Add secret"
+7. Select "File" under "Secret Type", type `~/.secretvars`, type `777`, and upload the edited `secretvars.sh` file. Give it a name, for your reference, and click "Add secret"
 8. On the right-hand side, a new entry will appear, copy the alphanumeric identifier over the name you gave your secret on the last step.
 9. Edit `.build.yml`, edit line 3 replace `YOUR_SOURCEHUT_SECRET_ID` with the identifier you copied in the last step.
 10. Add your weblog posts and pages as `.md` files under a `weblog` folder and your custom `configuration.txt` and `template.html` files under a `configuration` folder.
