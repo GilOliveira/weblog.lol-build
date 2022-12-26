@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # SPDX-License-Identifier: MIT-0
+# ~gpo/weblog.lol-build v1.0
 
 set +x
 export ADDRESS=foobar
