@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: 0BSD
-// ~gpo/weblog.lol-build v1.0
+// ~gpo/weblog.lol-build v2.0
 
 image: ubuntu/lts
 secrets:

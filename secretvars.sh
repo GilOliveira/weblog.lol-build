@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 # SPDX-License-Identifier: 0BSD
-# ~gpo/weblog.lol-build v1.0
+# ~gpo/weblog.lol-build v2.0
 
 set +x
 export ADDRESS=foobar
