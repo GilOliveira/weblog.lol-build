@@ -6,7 +6,9 @@ by [Gil](https://gil.omg.lol)
 
 **Heads up!:** Start with an empty repository as the scripts only track files changed in a given commit. A file needs to have changes made to its contents in relation to the previous commit in order for the updated version of the file to be uploaded to your weblog.
 
-1. Download `example.build.yml`, rename it to `.build.yml` and add it to the root of your repo.
+**If you're using macOS/Linux/UNIX:** Files starting with a `.` are usually hidden by your OS's file manager, as they assume it's a system file. Take that into account after renaming the `.build.yml` file. Most IDEs show these files anyways and there's usually an option on your file manager to show hidden files.
+
+1. Download `example.build.yml` and replace the URL in line 7 with the read-only clone URL of your repository. If your repository's visibility is set to private, you'll want to follow [sourcehut's documentation on the subject](https://man.sr.ht/builds.sr.ht/private-repos.md). Rename the file to `.build.yml` after you're done making the necessary changes.
 2. Download `secretvars.sh` and keep it somewhere safe outside your repo (we are going to put secret stuff in it).
 3. In `secretvars.sh` edit line 4 and replace `foobar` with the portion of your address before the `.omg.lol` part.
 4. In `secretvars.sh` edit line 5 and replace `insert-api-token-here` with the API key you retrieved from [your account page](https://home.omg.lol/account#api-key).

@@ -4,6 +4,8 @@
 image: ubuntu/lts
 secrets:
   - YOUR_SOURCEHUT_SECRET_ID
+sources:
+  - https://git.sr.ht/~foobar/repo
 packages:
   - curl
   - php
